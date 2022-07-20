@@ -7,10 +7,10 @@
 # Inherit from aurora device
 $(call inherit-product, device/sony/aurora/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common MoKee stuff.
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_aurora
+PRODUCT_NAME := mokee_aurora
 PRODUCT_DEVICE := aurora
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony

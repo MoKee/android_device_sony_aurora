@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_aurora.mk
+    $(LOCAL_DIR)/mokee_aurora.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_aurora-user \
-    lineage_aurora-userdebug \
-    lineage_aurora-eng
+    mokee_aurora-user \
+    mokee_aurora-userdebug \
+    mokee_aurora-eng
